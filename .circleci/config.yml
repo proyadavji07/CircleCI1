@@ -7,6 +7,7 @@ jobs:
     steps:
       - checkout
       - run: python a.py
+      
   test:
     docker:
       - image: cimg/python:3.11
