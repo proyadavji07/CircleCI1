@@ -20,7 +20,7 @@ jobs:
       - image: cimg/python:3.11
     steps:
       - run: echo "Deploying successfull"
-
+ 
 workflows:
   build_and_test_deploy:
     jobs:
